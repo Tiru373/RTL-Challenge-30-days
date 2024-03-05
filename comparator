@@ -6,6 +6,7 @@ module four_bit_comparator(
     output B_greater_than_A
 );
 
+
 // Define signals for the two pairs of 2-bit inputs
 wire [1:0] A_upper, A_lower, B_upper, B_lower;
 assign A_upper = A[3:2];
