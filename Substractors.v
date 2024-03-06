@@ -1,4 +1,4 @@
-Half Subtractor: 
+//Half Subtractor: 
 
 module half_subtractor(input A, input B, output Diff, output Borrow); 
     assign Diff = A ^ B; 
@@ -6,7 +6,7 @@ module half_subtractor(input A, input B, output Diff, output Borrow);
 endmodule 
  
 
-Full Subtractor: 
+//Full Subtractor: 
 
 module full_subtractor(input A, input B, input Bin, output Diff, output Borrow); 
     wire D1, D2, B1, B2; 
@@ -17,13 +17,13 @@ module full_subtractor(input A, input B, input Bin, output Diff, output Borrow);
 endmodule 
  
 
-Complement Subtractor: 
+//Complement Subtractor: 
 
 module complement_subtractor(input [3:0] A, input [3:0] B, output [3:0] Diff); 
     assign Diff = A + (~B) + 1; 
 endmodule 
 
-Borrow Subtractor: 
+//Borrow Subtractor: 
 
 module borrow_subtractor( 
     input [3:0] Minuend, Subtrahend, 
@@ -42,7 +42,7 @@ endmodule
 
  
 
-Serial Subtractor: 
+//Serial Subtractor: 
 
 module serial_subtractor(input clk, input rst, input [3:0] A, input [3:0] B, output reg [3:0] Diff); 
     always @(posedge clk or posedge rst) begin 
@@ -53,7 +53,7 @@ module serial_subtractor(input clk, input rst, input [3:0] A, input [3:0] B, out
     end 
 endmodule 
 
-Parallel Subtractor: 
+//Parallel Subtractor: 
 
 module parallel_subtractor( 
     input [3:0] A, B, 
@@ -64,7 +64,7 @@ assign Difference = A - B;
  
 endmodule 
 
-module Bidirectional Subtractor: 
+//module Bidirectional Subtractor: 
 
 module bidirectional_subtractor( 
     input direction, 
