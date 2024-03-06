@@ -1,4 +1,4 @@
-Half Adder: 
+// Half Adder: 
 
 module half_adder(input A, input B, output S, output C); 
     assign S = A ^ B; 
@@ -6,7 +6,7 @@ module half_adder(input A, input B, output S, output C);
 endmodule 
  
 
-Full Adder: 
+// Full Adder: 
 
 module full_adder(input A, input B, input Cin, output S, output Cout); 
     assign S = A ^ B ^ Cin; 
@@ -19,7 +19,7 @@ endmodule
 
  
 
-Verilog code for Ripple Carry Adder (4-bit): 
+// Verilog code for Ripple Carry Adder (4-bit): 
 
 module ripple_carry_adder( 
     input [3:0] A, 
@@ -38,7 +38,7 @@ full_adder fa3(.A(A[3]), .B(B[3]), .Cin(c[2]), .S(Sum[3]), .Cout(Cout));
  
 endmodule 
 
-Verilog code for Carry Look-Ahead Adder (4-bit): 
+// Verilog code for Carry Look-Ahead Adder (4-bit): 
 
 module carry_lookahead_adder( 
     input [3:0] A, 
