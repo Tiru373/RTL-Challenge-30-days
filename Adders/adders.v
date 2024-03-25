@@ -6,7 +6,7 @@ module half_adder(input A, input B, output S, output C);
 endmodule 
  
 
-// Full Adder: 
+// Full Adder:
 
 module full_adder(input A, input B, input Cin, output S, output Cout); 
     assign S = A ^ B ^ Cin; 
