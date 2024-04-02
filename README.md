@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://yourlogo.png" alt="30-Day RTL Challenge Logo" width="200" />
+  <img src="[https://yourlogo.png](https://www.google.com/imgres?q=digital%20circuit%20design%20&imgurl=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F315548272%2Ffigure%2Ffig2%2FAS%3A695542283771904%401542841611862%2FExample-digital-circuit.png&imgrefurl=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FExample-digital-circuit_fig2_315548272&docid=k7Z1N3L3569y2M&tbnid=o95jWUPPfXr_MM&vet=12ahUKEwjzz66X8aKFAxV6e2wGHYlGBW4QM3oECCYQAA..i&w=840&h=589&hcb=2&ved=2ahUKEwjzz66X8aKFAxV6e2wGHYlGBW4QM3oECCYQAA)" alt="30-Day RTL Challenge Logo" width="200" />
 </p>
 
 # 30-Day RTL Challenge with Verilog
